@@ -39,7 +39,7 @@ async function callLamatic(question: string, url?: string) {
 
   const timeout = setTimeout(() => {
     controller.abort();
-  }, 12000);
+  }, 25000);
 
   const host = process.env.LAMATIC_HOST;
   const projectId = process.env.LAMATIC_PROJECT_ID;
